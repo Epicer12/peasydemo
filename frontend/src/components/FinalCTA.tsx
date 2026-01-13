@@ -15,9 +15,10 @@ const FinalCTA = () => {
                         initial={{ opacity: 0, scale: 0.9 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
-                        className="text-sub-massive font-bold tracking-tighter mb-24 text-swiss-black leading-tight"
+                        className="text-sub-massive font-bold tracking-tighter mb-24 text-swiss-black flex flex-col items-center gap-6"
                     >
-                        READY_TO<br />BUILD?
+                        <span>READY_TO</span>
+                        <span>BUILD?</span>
                     </motion.h2>
 
                     <form className="max-w-2xl mx-auto flex flex-col md:flex-row gap-4 border-b border-swiss-black pb-4" onSubmit={(e) => e.preventDefault()}>

@@ -7,10 +7,10 @@ const Hero = () => {
             <GlowingGridBackground variant="cyan" />
 
             {/* Corner Crosshairs (Micro-Interactions) */}
-            <div className="absolute top-8 left-8 w-4 h-4 border-t border-l border-swiss-black" />
-            <div className="absolute top-8 right-8 w-4 h-4 border-t border-r border-swiss-black" />
-            <div className="absolute bottom-8 left-8 w-4 h-4 border-b border-l border-swiss-black" />
-            <div className="absolute bottom-8 right-8 w-4 h-4 border-b border-r border-swiss-black" />
+            <div className="absolute top-4 left-4 w-4 h-4 border-t border-l border-swiss-black" />
+            <div className="absolute top-4 right-4 w-4 h-4 border-t border-r border-swiss-black" />
+            <div className="absolute bottom-4 left-4 w-4 h-4 border-b border-l border-swiss-black" />
+            <div className="absolute bottom-4 right-4 w-4 h-4 border-b border-r border-swiss-black" />
 
             <div className="swiss-grid h-full relative z-10">
                 {/* Abstract Decorative Line - Moved behind text */}
