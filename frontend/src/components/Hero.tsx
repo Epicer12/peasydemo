@@ -45,12 +45,12 @@ const Hero = () => {
                         className="border-t border-swiss-cyan pt-6 bg-swiss-white/80 backdrop-blur-sm"
                     >
                         <p className="text-xl md:text-2xl font-bold leading-tight mb-8 text-swiss-black">
-                            The AI companion for your PC hardware journey.
-                            Diagnose, verify, and build with confidence.
+                            The intelligent command center for your gaming rig.
+                            Diagnose faults, verify builds, and unlock peak performance.
                         </p>
 
                         <div className="flex flex-col gap-2 items-start">
-                            <a href="#waitlist" className="text-lg font-bold text-swiss-black hover:bg-swiss-cyan hover:text-swiss-white transition-colors px-1 -ml-1">
+                            <a href="#download" className="text-lg font-bold text-swiss-black hover:bg-swiss-cyan hover:text-swiss-white transition-colors px-1 -ml-1">
                                 [ JOIN WAITLIST ]
                             </a>
                             <a href="#demo" className="text-lg font-bold text-swiss-black hover:bg-swiss-cyan hover:text-swiss-white transition-colors px-1 -ml-1">

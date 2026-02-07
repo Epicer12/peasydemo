@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
+import logo from '../assets/logo-white.png';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,12 +16,15 @@ const Navbar = () => {
                 transition={{ duration: 1, delay: 1 }}
                 className="fixed top-0 left-0 w-full z-50 px-4 md:px-8 py-6 mix-blend-difference text-white pointer-events-none"
             >
-                <div className="swiss-grid items-start">
+                <div className="swiss-grid items-center">
                     {/* Logo Area */}
                     <div className="col-span-2 pointer-events-auto">
-                        <a href="#" className="text-xl font-bold tracking-tighter block hover:opacity-50 transition-opacity">
-                            PEASY.LK
-                        </a>
+                        <img
+                            src={logo}
+                            alt="PEASY.LK"
+                            className="h-5 md:h-6 w-auto cursor-pointer hover:opacity-50 transition-opacity"
+                            onClick={() => window.location.href = '#'}
+                        />
                     </div>
 
                     {/* Desktop Nav - Raw List */}
